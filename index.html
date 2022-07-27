@@ -28,6 +28,9 @@
                     <li class="navbar__item">
                         <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
                     </li>
+                    <li class=""navbar__item">
+                        <a href="#more__projects" class="navbar__links" id="projects-page">More Projects</a>
+                    </li>
                     
                 </ul> 
             </div>
@@ -63,11 +66,61 @@
                </div>
            </div>
        </div>
-
-
-       <!--Projects-->
+       <!--New Projects-->
        <div class="projects" id="projects">
-           <h1>My Projects</h1>
+        <h1>Projects</h1>
+       
+         <div class = "main__container">
+            <!-- Project 1  -->
+            <div class = "main__content"> 
+                <h2> Neural Network From Scratch </h2>
+                <div class ="smallertext">
+                    <p>Studying neural networks myself, I created from scratch a convolutional neural network using the MNIST data set. 
+                        The neural network takes a 28x28 pixel image (784 inputs). The pixel values are then normalized and passed through the network 
+                        (using sigmoid function for a pass) and then outputted with a Softmax function in order to make the prediction. The values are then adjusted through the optimization of a cost function, using the gradient of the cost function.
+                        In this case the Cross Entropy loss function.  
+                    </p>  <p>In the application you can load in an existing set of weights for the network or train it yourself. There is also an application to see how well the network recognizes your hand writing. </p>
+                    <p>The application is avaliable under releases in the Github respository.</p> <br><br><br>
+                </div>   
+             </div>
+
+             
+
+             <div class="main__container">
+                <img src="NumberGif.gif" height="400" width="400">
+                
+             </div> 
+        </div>
+         <!-- Project 2  -->
+         <div class = "main__container">
+            <!-- Project 1  -->
+            <div class = "main__content"> 
+                <h2> Array Visualizer </h2>
+                <div class ="smallertext">
+                    <p>Using the React Framework I created an array visualiser website. The program can create a randomly sorted array, the values are represented by the bar's heights. Then a sorting algorthim can be selected and an animation will generate.</p>
+                    <div class="footer__link--items">
+                    <a href="https://stevenkoniaev.github.io/ArrayVisualiser/">https://stevenkoniaev.github.io/ArrayVisualiser/</a>
+                </div>
+                    <p>The website can sort with Merge Sort, Quick Sort, Heap Sort, Insertion Sort, Selecton Sort, and Bubble Sort. The animation occurs when two values are swapped so algorthims that have many comparisons but little
+                        swaps appear to be very fast such a Selection Sort which linearly finds the smallest element in an array and brings it to the front. The colours of the bars also change to red as they are being compared and then to green to show that they have been adjusted. </p>
+                  
+
+                </div>
+                
+             </div>
+             <div class="main__container">
+                <img src="ArrayVisualiser.gif" height="400" width="400">
+             </div> 
+
+             
+             
+        </div> 
+       </div>
+            
+
+       <!--MORE Projects-->
+       <div class="projects" id="more__projects">
+           <h1>More Projects</h1>
            <div class="projects__wrapper">
                <div class="projects__card">
                    <h2>Game "Lost Crown"</h2>
@@ -75,7 +128,7 @@
                    <p>This is a 2D-platformer I worked on over the course of a year. It features some enemy AI, bosses, and platforming. As well as 
                        music, menus, and save functionality. </p>
                        <br>
-                    <p>The game was fully created in Unity using C#. The code is on my github. There a demonstration of the game bellow.</p>
+                    <p>The game was fully created in Unity using C#. The code is on my github. There a demonstration of the game below.</p>
                </div>
                <div class="projects__card">
                 <h2>Ubisoft Gamelab "DuebyDaylight"</h2>
@@ -84,7 +137,6 @@
                     Ubisoft employees. Over the course of 10 weeks my team and I developed "DuebyDaylight" which is a two player game about finishing school projects before day time.</p>
                 <br>
                 <p>The code is avaliable on my Github. Gameplay footage is shown bellow.</p>
-                
             </div>
             <div class="projects__card">
                 <h2>Website Creation</h2>
