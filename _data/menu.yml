@@ -13,8 +13,8 @@ entries:
         url: bouldering
       - title: <a href='https://www.goodreads.com/user/show/184327310-stevenk' target="_blank">Reading</a>
   - title: <b><i>Some</i> Projects</b>
-    entries: 
-      - title: Honours Project - Predicting Quality of Summarization from Text
+    entries:
+      - title: Honours Project and First Paper - <a href='https://arxiv.org/abs/2504.05420' target="_blank">(Paper)</a>
       - title: Raytracer Final Project - Final Project for Comp. Graphics Course
       - title: <a href='assets/COMP_550_Final_Project.pdf' target="_blank">Similarity of Languages Project</a> - Final Project for NLP Course.
       - title: <a href='assets/COMP_579.pdf' target="_blank">TicTacToe RL</a> - Final Project for RL Course.
