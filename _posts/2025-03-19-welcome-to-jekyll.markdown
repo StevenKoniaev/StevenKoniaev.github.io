@@ -1,10 +1,37 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-03-17 21:24:25 -0400
+title:  "Test post"
+date:   9999-03-19 12:37:32 -0400
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+This is an inline equation: \\( E = mc^2 \\).
+
+A block equation:
+$$
+\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
+$$
+
+
+```javascript
+function sayHello(name) {
+  if (!name) {
+    console.log('Hello World');
+  } else {
+    console.log(`Hello ${name}`);
+  }
+}
+```
+
+```python
+x = 5
+print(x)
+
+def test():
+  pass
+```
+
+ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
