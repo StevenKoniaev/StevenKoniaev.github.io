@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "McGill Course Recommendations"
-date:   2025-03-19 12:37:32 -0400
+date:   2029-03-19 12:37:32 -0400
 categories: jekyll update
 ---
 

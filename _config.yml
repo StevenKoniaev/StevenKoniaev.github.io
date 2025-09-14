@@ -28,12 +28,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 highlighter: rouge
 theme: no-style-please
+#remote_theme: riggraz/no-style-please
 highlighter: rouge
 markdown: kramdown
 kramdown:
   math_engine: mathjax
 highlighter: rouge
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

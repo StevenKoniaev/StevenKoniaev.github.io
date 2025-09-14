@@ -14,18 +14,12 @@ entries:
       - title: <a href='https://www.goodreads.com/user/show/184327310-stevenk' target="_blank">Reading</a>
   - title: <b><i>Some</i> Projects</b>
     entries:
-      - title: Honours Project and First Paper - <a href='https://arxiv.org/abs/2504.05420' target="_blank">(Paper)</a>
+      - title: Thesis Project and First Paper. Accepted to ACL. - <a href='https://arxiv.org/abs/2504.05420' target="_blank">(Paper)</a>
       - title: Raytracer Final Project - Final Project for Comp. Graphics Course
       - title: <a href='assets/COMP_550_Final_Project.pdf' target="_blank">Similarity of Languages Project</a> - Final Project for NLP Course.
       - title: <a href='assets/COMP_579.pdf' target="_blank">TicTacToe RL</a> - Final Project for RL Course.
       - title: <a href='https://www.youtube.com/watch?v=62yEp-xKNRo' target="_blank">DuebyDaylight</a> - Game Prototype made for <a href='https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition/' target="_blank">Ubisoft Gamelabs</a>.
       - title: ML From Scratch - MNIST digit classification app near the end of highschool.
-  - title: <b>Posts</b>
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
   - title: <b>Contact Information</b>
     entries:
       - title: steven[dot]koniaev[at]gmail[dot]com
